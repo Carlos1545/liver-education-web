@@ -5,20 +5,37 @@
 body{
 	font-family: Raleway;
 }
+
+/****** ALL FEATURES *******/
 .liver-title-box{
 	padding-top: 80px;
 	height: 50px;
 }
-.liver-card{
-	width: 100%;
-	height: 285px;
-	float: left;
-	margin: 20px 10px;
-	border: solid 2px #dadada;
-}
 
+/****** SLIDER *******/
 #slider{
 	min-height: 500px;
 	background-image: url('../images/study-pexels-photo.jpeg');
 	background-size: cover;
 }
+
+/****** CARD *******/
+.liver-card{
+	width: 100%;
+	height: 285px;
+	float: left;
+	margin: 20px 10px;
+	padding: 45px 20px 30px;
+	border: solid 2px #dadada;
+}
+.liver-card p{
+	color: #818181;
+}
+.liver-card hr{
+	margin: 15px 63px;
+}
+.liver-card .icon{
+	color: #F5A623;
+	padding-bottom: 10px;
+}
+
