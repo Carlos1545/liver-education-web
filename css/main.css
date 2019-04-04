@@ -5,6 +5,13 @@
 body{
 	font-family: Raleway;
 }
+section{
+	padding: 20px 0px;
+}
+footer{
+	background-color: #818181;
+	height: 100px;
+}
 
 /****** ALL FEATURES *******/
 .liver-title-box{
@@ -39,6 +46,16 @@ body{
 	padding-bottom: 10px;
 }
 /****** COMPARISION *******/
+
+
+/****** LIST *******/
+.liver-list{
+	list-style-type: none;
+	margin: 20px 0px;
+}
+.liver-list li{
+	padding: 10px;
+}
 
 /****** TESTIMONIALS *******/
 #testimonials{
