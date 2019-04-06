@@ -1,4 +1,4 @@
-$('section#parallax').each(function(){
+$('section.parallax').each(function(){
     var $obj = $(this);
 
     $(window).scroll(function() {
