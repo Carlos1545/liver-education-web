@@ -1,7 +1,7 @@
 /**
 * 	yellow: #F5A623;
 *	black:	#212529;
-*
+*	gray:	#b2b2b2;
 */
 
 @font-face {
@@ -20,6 +20,7 @@ section{
 }
 a, a:hover{ 
 	color: #F5A623;
+	text-decoration: none;
 }
 ::selection{
 	color: #fff;
@@ -34,6 +35,9 @@ a, a:hover{
 .liver-color{
 	color: #F5A623;
 }
+.liver-color-gray{
+	color: #b2b2b2;
+}
 .liver-title{
 	font-size: 52px;
     line-height: 60px;
@@ -47,12 +51,37 @@ a, a:hover{
 .liver-marck-title{
 	font-family: MarckScript;
 	color: #F5A623;
+}
+.liver-title-medium{
 	font-size: 40px;
 }
 .liver-line{
 	letter-spacing: -2px;
 	margin-left: 27px;
 	margin-right: 30px;
+}
+.liver-button{
+	color: #464646;
+	border: solid 2px #dadada;
+    padding: 0;
+
+    display: block;
+	width: auto;
+	min-height: 40px;
+	margin: 0 63px;
+}
+.liver-button div{
+	float: left;
+    position: relative;
+    padding: 6px;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.liver-button i{
+	display: block;
+	border-left: solid 2px #dadada;
 }
 .parallax{
     background-position: 50% 0;
@@ -161,6 +190,51 @@ section#testimonials{
     text-transform: uppercase;
     font-size: 13px;
     line-height: 20px;
+}
+
+/****** COURSES AREA *******/
+.liver-courses-box{
+	height: 200px;
+	background-color: #212529;
+	margin-top: 50px;
+}
+.liver-overlay{
+	width: 0%;
+	height: 100%;
+	padding-top: 20%;
+	overflow: hidden;
+
+	background-color: #fff;
+
+	transition: width .3s ease-in-out;
+}
+.liver-courses-box:hover .liver-overlay{
+	width: 70%;
+}
+.liver-courses-box:hover .liver-overlay-zoomball{
+	left: 25%;
+}
+.liver-overlay-zoomball{
+	height: 95px;
+	width: 25%;
+
+    background-color: #F5A623;
+	transition: left .18s ease-in-out;
+    position: absolute;
+    overflow: hidden;
+    top: 5%;
+    left: 12%;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    border: 6px solid #fff;
+    box-shadow: 0 2px 2px 1px rgba(0,0,0,0.48);
+}
+.liver-description-course{
+	margin-top: 5px;
 }
 
 /****** FOOTER *******/
