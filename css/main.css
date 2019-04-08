@@ -216,7 +216,7 @@ section#testimonials{
 }
 .liver-overlay-zoomball{
 	height: 95px;
-	width: 25%;
+	width: 95px;
 
     background-color: #F5A623;
 	transition: left .18s ease-in-out;
