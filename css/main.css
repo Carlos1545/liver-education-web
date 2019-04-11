@@ -1,5 +1,6 @@
 /**
 * 	yellow: 		#F5A623;
+*   light yellow	#F7C845;
 *	black:			#212529;
 *	gray:			#818181;
 *   light gray: 	#dadada;
@@ -19,9 +20,14 @@ body{
 section{
 	padding: 20px 0px;
 }
-a, a:hover{ 
+a{ 
 	color: #F5A623;
 	text-decoration: none;
+}
+a:hover{
+	color: #F7C845;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out ;
 }
 ::selection{
 	color: #fff;
@@ -304,4 +310,8 @@ footer{
 .liver-link-social{
 	color: #F5A623;
 	margin: 5px;
+}
+.liver-link-social:hover{
+	color: #F7C845;
+	transition: color 0.15s ease-in-out ;
 }
