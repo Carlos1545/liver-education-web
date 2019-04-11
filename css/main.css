@@ -34,6 +34,10 @@ a, a:hover{
 	height: 50px;
 	text-transform: uppercase;
 }
+.liver-marck-title{
+	color: #dadada;
+	margin-top: 20px;
+}
 .liver-color{
 	color: #F5A623;
 }
@@ -50,7 +54,7 @@ a, a:hover{
 .liver-subtitle{
 	font-size: 32px;
 }
-.liver-marck-title{
+.liver-marck{
 	font-family: MarckScript;
 	color: #F5A623;
 }
