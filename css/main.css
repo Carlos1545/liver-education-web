@@ -297,7 +297,7 @@ section#testimonials{
 /****** FOOTER *******/
 footer{
 	background-color: #212529;
-	height: 100px;
+	min-height: 100px;
 	color: #fff;
 	text-align: center;
 }
