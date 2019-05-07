@@ -315,3 +315,39 @@ footer{
 	color: #F7C845;
 	transition: color 0.15s ease-in-out ;
 }
+
+/****** PAYMENT AREA *******/
+.form-step-input {
+    box-shadow: none;
+    display: block;
+    width: calc(100% - 1px);
+    margin: 0 auto;
+    outline-width: 1px;
+    border: 1px solid #dde4e8;
+    border-radius: 3px;
+    padding: 15px;
+    color: #868b8e;
+}
+.form-step-label {
+    display: block;
+    text-transform: uppercase;
+    color: #a2b0b8;
+    font-size: .7em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.form-step-button {
+    display: block;
+    width: calc(100% - 7px);
+    padding: 20px;
+    text-transform: uppercase;
+    border: none;
+    font-size: .8em;
+    border-radius: 2px;
+    color: #fff;
+    margin: 3em auto 0;
+    font-weight: 600;
+    cursor: pointer;
+    outline-width: 2px;
+}
