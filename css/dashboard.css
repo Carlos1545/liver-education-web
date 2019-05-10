@@ -1,0 +1,46 @@
+/**
+* 	yellow: 		#F5A623;
+*   light yellow	#F7C845;
+*	black:			#212529;
+*	depth black:	#101418;
+*	gray:			#818181;
+*   light gray: 	#dadada;
+*/
+ 
+ /****** SIDEBAR *******/
+#sidebar{
+	z-index: 10;
+    position: absolute;
+    width: 220px;
+    height: calc(100% - 84px);
+
+    color: #fff;
+    background-color: #212529;
+    box-shadow: 1px 0 20px rgba(0,0,0,0.08);
+}
+#sidebar ul{
+	list-style-type: none;
+	padding: 0;
+}
+#sidebar ul li{
+	width: 100%;
+}
+#sidebar ul li a{
+	display: block;
+	width: 100%;
+
+	color: #fff;
+	padding: 15px 30px 15px 15px;
+}
+#sidebar a:hover{
+	background-color: #101418;
+	border-left: 2px solid #F5A623;
+}
+
+main{
+	margin: 0 0 0 220px;
+	padding: 25px;
+    background-color: #edf1f5;
+
+    min-height: 1024px;
+}
