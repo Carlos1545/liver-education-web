@@ -6,6 +6,41 @@
 *   light gray: 	#dadada;
 */
 
+/* Adicionando media query da section principal do site  obs: o bootstrap tava breakando minha modificação então eu coloquei o important */
+/* alem disso mudei o nome das classes do ul li para mudar as cores aquela cor horrivel amarela para uma cor vermelha na lista do mec e uma verde na lista do liver */
+@media only screen and (max-width: 768px){
+	.liver-title-medium{
+		font-size: 26px!important;
+	}
+	.liver-title{
+		font-size:35px!important;
+	}
+}
+@media only screen and (max-width: 540px){
+	.liver-title-medium{
+		font-size: 26px!important;
+	}
+	.liver-title{
+		font-size:25px!important;
+	}
+}
+@media only screen and (max-width: 491px){
+	.liver-line {
+		opacity: 0;
+	}
+	/* detalhe as linhas nessa media querie ficaram uma em cima da outra pq coloquei display block achei interessante mas é gosto do fregues */
+	.liver-title-medium{
+		font-size: 23px!important;
+		text-align: center;
+		display: block;
+	}
+	.liver-title{
+		font-size:25px!important;
+	}
+}
+
+
+
 @font-face {
   font-family: Raleway;
   src: url(../fonts/Raleway-Regular.ttf);
@@ -111,7 +146,6 @@ section#slider{
 	padding-top: 30px;
 	background-image: url('../images/landing-slider.jpg');
 	background-size: cover;
-	background-
 }
 
 /****** CARD *******/
@@ -148,10 +182,17 @@ section#message{
 }
 /****** COMPARISION *******/
 
-.liver-list{
+.liver-list-mec  .liver-list-mec {
 	list-style-type: none;
 	margin: 20px 0px;
 }
+.liver-list-mec .liver-color{
+	color: red;
+}
+.liver-list-liver .liver-color{
+	color: green;
+}
+
 .liver-list li{
 	padding: 10px;
 }
